@@ -258,8 +258,8 @@ POST /api/v1/auth/login
                                 $400
                             </div>
                             <p className="mt-4 text-[var(--color-text-secondary)]">
-                                Stop settling for mediocre APIs. I'll craft you
-                                a{" "}
+                                Stop settling for mediocre APIs. I&apos;ll craft
+                                you a{" "}
                                 <strong className="text-[var(--color-primary)]">
                                     bulletproof, documented, and
                                     enterprise-secure API
@@ -310,8 +310,8 @@ POST /api/v1/auth/login
                                 $1,200
                             </div>
                             <p className="mt-4 text-[var(--color-text-secondary)]">
-                                I'll deliver a complete enterprise backend for
-                                your MVP so you can{" "}
+                                I&apos;ll deliver a complete enterprise backend
+                                for your MVP so you can{" "}
                                 <strong className="text-[var(--color-text-accent)]">
                                     launch in weeks, not months.
                                 </strong>{" "}
@@ -352,8 +352,8 @@ POST /api/v1/auth/login
                         Premium Work Showcase
                     </h2>
                     <p className="mt-2 text-[var(--color-text-secondary)] max-w-[70ch]">
-                        Here's a glimpse of my elite work - enterprise projects
-                        that demonstrate world-class backend expertise.
+                        Here&apos;s a glimpse of my elite work - enterprise
+                        projects that demonstrate world-class backend expertise.
                     </p>
                     <div className="mt-10 grid md:grid-cols-2 gap-8">
                         <div
@@ -445,7 +445,7 @@ POST /api/v1/auth/login
                                 Lightning-Fast Delivery
                             </h3>
                             <p className="mt-1 text-[var(--color-text-secondary)]">
-                                On time, every time - or you don't pay.
+                                On time, every time - or you don&apos;t pay.
                             </p>
                         </div>
                         <div
@@ -480,7 +480,8 @@ POST /api/v1/auth/login
                                 Premium Guarantee
                             </h3>
                             <p className="mt-1 text-[var(--color-text-secondary)]">
-                                If I don't deliver excellence, you don't pay.
+                                If I don&apos;t deliver excellence, you
+                                don&apos;t pay.
                             </p>
                         </div>
                         <div
@@ -497,8 +498,8 @@ POST /api/v1/auth/login
                                 Executive Communication
                             </h3>
                             <p className="mt-1 text-[var(--color-text-secondary)]">
-                                You'll always know exactly where your project
-                                stands.
+                                You&apos;ll always know exactly where your
+                                project stands.
                             </p>
                         </div>
                     </div>
@@ -532,9 +533,9 @@ POST /api/v1/auth/login
                                 You Contact Me
                             </h3>
                             <p className="mt-2 text-[var(--color-text-secondary)]">
-                                Reach out with your project vision. I'll respond
-                                within hours with strategic questions and a
-                                premium timeline.
+                                Reach out with your project vision. I&apos;ll
+                                respond within hours with strategic questions
+                                and a premium timeline.
                             </p>
                         </div>
                         <div
@@ -573,8 +574,8 @@ POST /api/v1/auth/login
                             </h3>
                             <p className="mt-2 text-[var(--color-text-secondary)]">
                                 Lightning-fast, focused development with daily
-                                executive updates. You'll see premium progress
-                                every day.
+                                executive updates. You&apos;ll see premium
+                                progress every day.
                             </p>
                         </div>
                         <div
@@ -674,9 +675,9 @@ POST /api/v1/auth/login
                             Ready to Build Your Elite Backend?
                         </h2>
                         <p className="mt-2 text-white/80 max-w-[70ch]">
-                            Let's transform your vision into an enterprise-grade
-                            backend system. Premium delivery, guaranteed
-                            excellence.
+                            Let&apos;s transform your vision into an
+                            enterprise-grade backend system. Premium delivery,
+                            guaranteed excellence.
                         </p>
                         <div
                             className="mt-8 grid md:grid-cols-2 gap-8 rounded-xl p-8"
@@ -691,9 +692,9 @@ POST /api/v1/auth/login
                                     Get Started Today
                                 </h3>
                                 <p className="mt-3 text-white/80">
-                                    Email me with your project vision and I'll
-                                    get back to you within hours with a premium
-                                    timeline and strategic next steps.
+                                    Email me with your project vision and
+                                    I&apos;ll get back to you within hours with
+                                    a premium timeline and strategic next steps.
                                 </p>
                             </div>
                             <div className="flex flex-col gap-4 self-center">
