@@ -3,26 +3,36 @@
 /* Design tokens */
 :root {
   /* Colors */
-  --color-primary: #0EA5E9;
-  --color-secondary: #1E293B;
-  --color-accent: #F59E0B;
-  --color-accent-gold: #FFD700;
-  --color-accent-amber: #FFC107;
-  --color-warning: #EF4444;
+  --color-primary: #00D9FF;
+  --color-secondary: #6366F1;
+  --color-accent: #8B5CF6;
+  --color-accent-purple: #A855F7;
+  --color-accent-pink: #EC4899;
+  --color-warning: #F59E0B;
   --color-success: #10B981;
-  --color-background: #0F172A;
-  --color-surface: #1E293B;
-  --color-surface-elevated: #334155;
-  --color-surface-glass: rgba(30, 41, 59, 0.8);
-  --color-text-primary: #F8FAFC;
-  --color-text-secondary: #CBD5E1;
-  --color-text-muted: #64748B;
-  --color-text-accent: #FFD700;
-  --color-border: #334155;
-  --color-border-accent: #0EA5E9;
-  --gradient-primary: linear-gradient(135deg, #0EA5E9 0%, #1D4ED8 100%);
-  --gradient-gold: linear-gradient(135deg, #FFD700 0%, #F59E0B 100%);
-  --gradient-surface: linear-gradient(135deg, #1E293B 0%, #334155 100%);
+  --color-error: #EF4444;
+  --color-background: #0B1426;
+  --color-background-secondary: #1A1F36;
+  --color-surface: #1E2139;
+  --color-surface-elevated: #252B47;
+  --color-surface-card: #1A1F36;
+  --color-surface-glass: rgba(26, 31, 54, 0.8);
+  --color-surface-overlay: rgba(30, 33, 57, 0.9);
+  --color-text-primary: #FFFFFF;
+  --color-text-secondary: #B8BCC8;
+  --color-text-muted: #6B7280;
+  --color-text-accent: #00D9FF;
+  --color-border: #2A2F4A;
+  --color-border-light: #3A3F5A;
+  --color-border-accent: #00D9FF;
+  --gradient-primary: linear-gradient(135deg, #00D9FF 0%, #6366F1 100%);
+  --gradient-purple: linear-gradient(135deg, #8B5CF6 0%, #A855F7 100%);
+  --gradient-surface: linear-gradient(135deg, #1A1F36 0%, #252B47 100%);
+  --gradient-card: linear-gradient(145deg, #1E2139 0%, #1A1F36 100%);
+
+  /* Legacy aliases (backwards compatibility) */
+  --color-accent-gold: var(--color-primary);
+  --color-accent-amber: var(--color-accent);
 
   /* Typography */
   --font-heading-weight: 700;
@@ -35,13 +45,17 @@
   --font-display-letter-spacing: -0.05em;
 
   /* Effects */
-  --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.5);
-  --shadow-md: 0 4px 12px 0 rgba(0, 0, 0, 0.4);
-  --shadow-lg: 0 8px 25px 0 rgba(0, 0, 0, 0.6);
-  --shadow-xl: 0 16px 40px 0 rgba(0, 0, 0, 0.7);
-  --shadow-glow-blue: 0 0 30px rgba(14, 165, 233, 0.3);
-  --shadow-glow-gold: 0 0 30px rgba(255, 215, 0, 0.3);
-  --shadow-inner: inset 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+  --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.6);
+  --shadow-md: 0 4px 12px 0 rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 8px 25px 0 rgba(0, 0, 0, 0.7);
+  --shadow-xl: 0 16px 40px 0 rgba(0, 0, 0, 0.8);
+  --shadow-card: 0 4px 16px 0 rgba(0, 0, 0, 0.4);
+  --shadow-glow-cyan: 0 0 30px rgba(0, 217, 255, 0.3);
+  --shadow-glow-purple: 0 0 30px rgba(139, 92, 246, 0.3);
+  /* Legacy glow names */
+  --shadow-glow-blue: var(--shadow-glow-cyan);
+  --shadow-glow-gold: var(--shadow-glow-purple);
+  --shadow-inner: inset 0 2px 4px 0 rgba(0, 0, 0, 0.4);
 
   /* Layout */
   --container-max-width: 1200px;
@@ -84,8 +98,8 @@ body {
 
 /* Animations */
 @keyframes pulse-glow {
-  from { box-shadow: var(--shadow-glow-blue); }
-  to { box-shadow: var(--shadow-glow-gold); }
+  from { box-shadow: var(--shadow-glow-cyan); }
+  to { box-shadow: var(--shadow-glow-purple); }
 }
 
 @keyframes fadeIn {

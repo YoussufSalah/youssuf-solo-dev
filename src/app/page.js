@@ -280,7 +280,7 @@ export default function Home() {
                             <span
                                 className="text-[var(--color-text-accent)]"
                                 style={{
-                                    background: "var(--gradient-gold)",
+                                    background: "var(--gradient-purple)",
                                     WebkitBackgroundClip: "text",
                                     WebkitTextFillColor: "transparent",
                                 }}
