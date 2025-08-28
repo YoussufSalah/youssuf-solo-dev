@@ -594,7 +594,7 @@ POST /api/v1/auth/login
                                             m.primary
                                                 ? {
                                                       background:
-                                                          "var(--gradient-gold)",
+                                                          "var(--gradient-purple)",
                                                       boxShadow:
                                                           "var(--shadow-glow-gold)",
                                                   }
