@@ -1,0 +1,27 @@
+{
+    "sectionLabel": "How We’ll Work",
+    "title": "Simple 4-Step Flow",
+    "description": "No corporate red tape. Just fast, clear, and effective:",
+    "items": [
+        {
+            "number": "01",
+            "title": "You Reach Out",
+            "description": "Shoot me a message with your idea. I reply in hours, not days."
+        },
+        {
+            "number": "02",
+            "title": "We Lock Scope",
+            "description": "Quick chat or call. We nail down exactly what’s needed. No scope creep, no confusion."
+        },
+        {
+            "number": "03",
+            "title": "I Build It",
+            "description": "I go heads-down and ship. You get progress updates as I build."
+        },
+        {
+            "number": "04",
+            "title": "You Get It + Docs",
+            "description": "Backend delivered. Full docs included so your team can run with it instantly."
+        }
+    ]
+}

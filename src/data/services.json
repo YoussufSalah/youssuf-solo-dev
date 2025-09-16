@@ -1,0 +1,55 @@
+{
+    "sectionLabel": "What I Do",
+    "title": "Backend Builds That Don’t Suck",
+    "description": "Here’s how I turn your messy idea into a backend that <i>actually works</i>:",
+    "gigs": [
+        {
+            "id": "gig1",
+            "emoji": "🗄️",
+            "title": "Database Design That Doesn’t Haunt You Later",
+            "price": "$150",
+            "tagline": "Stop future nightmares before they start",
+            "problem": "Bad database design = slow app, broken analytics, expensive migrations.",
+            "solution": "I’ll design a <strong>clean, scalable schema</strong> that keeps your app fast and your data organized like a pro.",
+            "deliverables": [
+                "Custom DB schema (Postgres/MySQL/Supabase)",
+                "Analytical SQL queries (dashboards, insights, reports)",
+                "ER diagram + schema docs"
+            ],
+            "timeline": "Under 24h"
+        },
+        {
+            "id": "gig2",
+            "emoji": "🔌",
+            "title": "APIs That Just Work™",
+            "price": "$400",
+            "tagline": "Your frontend team will thank you",
+            "problem": "Half-baked APIs = bugs, delays, angry devs.",
+            "solution": "I’ll ship you a <strong>clean, secure, documented API</strong> ready to plug into your frontend with zero stress.",
+            "deliverables": [
+                "REST API (Node.js, Express, Supabase)",
+                "Auth & permissions (JWT/Passport)",
+                "CRUD ops + custom logic",
+                "Swagger/OpenAPI docs"
+            ],
+            "timeline": "1–2 days"
+        },
+        {
+            "id": "gig3",
+            "emoji": "🚀",
+            "title": "Full SaaS MVP Backend",
+            "price": "$1,200",
+            "tagline": "From zero to backend in under 2 weeks",
+            "problem": "Building a SaaS backend from scratch takes forever.",
+            "solution": "I’ll deliver your <strong>entire MVP backend</strong> (DB + API + auth + docs) so you can launch and test fast.",
+            "deliverables": [
+                "Full database schema + implementation",
+                "Complete Node.js backend (auth, roles, CRUD)",
+                "Production-ready REST API",
+                "Docs + Postman/Swagger collection"
+            ],
+            "timeline": "5–10 days",
+            "featured": true
+        }
+    ]
+}

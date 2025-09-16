@@ -1,0 +1,140 @@
+{
+    "section": "portfolio",
+    "type": "card-list",
+    "description": "A section that displays projects as interactive cards. Each card includes a rotating request/response animation, project title, description, and links to GitHub case study + X case study.",
+    "data": {
+        "projects": [
+            {
+                "reqRes": [
+                    {
+                        "req": {
+                            "method": "GET",
+                            "url": "/expenses?options=%7B%22filter%22%3A%5B%7B%22op%22%3A%22gt%22%2C%22column%22%3A%22date%22%2C%22value%22%3A%222025-06-01%22%7D%2C%7B%22op%22%3A%22lte%22%2C%22column%22%3A%22date%22%2C%22value%22%3A%222025-11-11%22%7D%5D%7D",
+                            "headers": {
+                                "Authorization": "Bearer <token>"
+                            }
+                        },
+                        "res": {
+                            "status": "success",
+                            "data": {
+                                "msg": "All expenses retrieved successfully.",
+                                "expenses": [
+                                    {
+                                        "id": "ad703758-04cf-4af1-b375-6c4d50dcf8cb",
+                                        "amount": 9.99,
+                                        "category": "Food",
+                                        "note": "Breakfast",
+                                        "spent_at": "2025-09-07"
+                                    },
+                                    {
+                                        "id": "8d7d153a-3d11-4421-91c1-0ea464e8eadf",
+                                        "amount": 14.99,
+                                        "category": "Food",
+                                        "note": "Lunch",
+                                        "spent_at": "2025-09-07"
+                                    }
+                                ],
+                                "filtersApplies": {
+                                    "filter": [
+                                        {
+                                            "op": "gt",
+                                            "column": "spent_at",
+                                            "value": "2025-06-01"
+                                        },
+                                        {
+                                            "op": "lte",
+                                            "column": "spent_at",
+                                            "value": "2025-11-11"
+                                        }
+                                    ],
+                                    "limit": 5,
+                                    "page": 2
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "req": {
+                            "method": "POST",
+                            "url": "/expenses",
+                            "body": {
+                                "amount": 19.99,
+                                "category": "Tech",
+                                "note": "USB Cable",
+                                "spent_at": "2025-09-16"
+                            }
+                        },
+                        "res": {
+                            "status": "success",
+                            "data": {
+                                "msg": "Expense created successfully.",
+                                "expense": {
+                                    "id": "2f9e4d47-81ad-44c7-9a94-1cbe4d1d7281",
+                                    "amount": 19.99,
+                                    "category": "Tech",
+                                    "note": "USB Cable",
+                                    "spent_at": "2025-09-16"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "req": {
+                            "method": "GET",
+                            "url": "/expenses/summary?options=%7B%22groupBy%22%3A%22category%22%7D"
+                        },
+                        "res": {
+                            "status": "success",
+                            "data": {
+                                "msg": "Expenses aggregated.",
+                                "overall": {
+                                    "min": 9.99,
+                                    "max": 61,
+                                    "total": 127.96,
+                                    "count": 5
+                                },
+                                "byCategory": {
+                                    "Food": {
+                                        "min": 9.99,
+                                        "max": 14.99,
+                                        "total": 24.98,
+                                        "count": 2
+                                    },
+                                    "Tech": {
+                                        "min": 19.99,
+                                        "max": 37,
+                                        "total": 56.99,
+                                        "count": 2
+                                    },
+                                    "Gadget": {
+                                        "min": 61,
+                                        "max": 61,
+                                        "total": 61,
+                                        "count": 1
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ],
+                "title": "Personal Budget & Expense Tracker",
+                "description": "A B2C SaaS MVP that helps users log, filter, and analyze their expenses with smart querying and monthly summaries.",
+                "githubCasestudyURL": "https://github.com/YoussufSalah/expense-tracker-backend/blob/main/CASE_STUDY.md",
+                "XCasestudyURL": "https://x.com/YoussufSoloDev/status/1965106445625794608"
+            }
+        ]
+    },
+    "behavior": {
+        "reqResAnimation": {
+            "type": "typewriter",
+            "duration": "3s",
+            "cycle": true,
+            "switchInterval": "3s",
+            "parallelLayout": true
+        },
+        "links": {
+            "githubCasestudyURL": "Opens GitHub case study in new tab",
+            "XCasestudyURL": "Opens X case study thread in new tab"
+        }
+    }
+}

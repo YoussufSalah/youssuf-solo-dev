@@ -28,12 +28,12 @@ export const metadata = {
         "PostgreSQL mastery",
         "scalable systems",
     ],
-    metadataBase: new URL("https://example.com"),
+    metadataBase: new URL("https://youssuf-solo-dev.vercel.app/"),
     openGraph: {
         title: "Youssuf S. - Elite Backend Engineer",
         description:
             "Enterprise-grade backends for ambitious startups. Premium quality, guaranteed results.",
-        url: "https://example.com",
+        url: "https://youssuf-solo-dev.vercel.app/",
         siteName: "Youssuf S.",
         type: "website",
     },

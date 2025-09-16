@@ -1,0 +1,18 @@
+{
+    "badge": "⚡ Backend Dev & Database Systems",
+    "headlineMain": "Got an Idea? I’ll Build the Backend.",
+    "subtitle": "Fast. Clean. Ready to Scale.",
+    "highlight": { "first": "Idea", "second": "Backend" },
+    "description": "I build backends that don’t crash, don’t crawl, and don’t make your frontend devs cry. Startups, founders, and teams hit me up when they need <strong>production-ready backends</strong> without the headaches. Always on time. Always scalable. If I don’t deliver? You don’t pay. Simple.",
+    "profile": {
+        "name": "Youssuf S.",
+        "title": "Backend Engineer",
+        "location": "Egypt",
+        "age": "16 (yeah, that’s not a typo)",
+        "experience": "Years building systems that <i>actually</i> work"
+    },
+    "buttons": [
+        { "text": "See My Services", "href": "#services", "type": "primary" },
+        { "text": "Hit Me Up", "href": "#contact", "type": "secondary" }
+    ]
+}

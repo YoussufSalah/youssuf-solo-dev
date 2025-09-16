@@ -1,0 +1,27 @@
+{
+    "sectionLabel": "🔥 Why Me",
+    "title": "What Makes Me Different",
+    "description": "I’m young, hungry, and obsessed with shipping quality code fast. Here’s what you get with me:",
+    "items": [
+        {
+            "icon": "⚡",
+            "title": "Ridiculously Fast Delivery",
+            "description": "Your backend gets done before you even expect it. Missed deadlines? Never heard of them."
+        },
+        {
+            "icon": "🏗️",
+            "title": "Code That Scales",
+            "description": "I don’t hack stuff together. Everything’s clean, modular, and future-proof."
+        },
+        {
+            "icon": "💰",
+            "title": "Zero-Risk Guarantee",
+            "description": "If I don’t deliver what I promised, you don’t pay. No drama."
+        },
+        {
+            "icon": "💬",
+            "title": "Straightforward Communication",
+            "description": "You’ll always know what’s going on. No ghosting, no jargon, no BS."
+        }
+    ]
+}

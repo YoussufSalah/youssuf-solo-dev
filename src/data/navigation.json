@@ -1,0 +1,11 @@
+{
+    "logo": "Youssuf S.",
+    "menuItems": [
+        { "label": "Home", "href": "#home" },
+        { "label": "What I Do", "href": "#services" },
+        { "label": "Projects", "href": "#portfolio" },
+        { "label": "Why Me", "href": "#why-me" },
+        { "label": "Contact", "href": "#contact" }
+    ],
+    "ctaText": "Work With Me"
+}

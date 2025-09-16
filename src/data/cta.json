@@ -1,0 +1,26 @@
+{
+    "title": "Need a Backend? I Got You.",
+    "description": "Fast delivery. Scalable code. Money-back guarantee. Let’s get your idea online.",
+    "panel": {
+        "title": "Let’s Build",
+        "description": "Email me your project idea. I’ll reply within hours with a plan + timeline.",
+        "methods": [
+            {
+                "type": "email",
+                "value": "business.youssuf@gmail.com",
+                "label": "📩 Email Me",
+                "href": "mailto:business.youssuf@gmail.com",
+                "primary": true
+            },
+            {
+                "type": "twitter",
+                "value": "Youssuf S.",
+                "label": "🐦 X/Twitter",
+                "href": "https://x.com/YoussufSoloDev",
+                "primary": false
+            }
+        ],
+        "responseTime": "I reply within hours",
+        "guarantee": "If I don’t deliver, you don’t pay."
+    }
+}
