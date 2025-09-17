@@ -78,7 +78,7 @@ function AnimatedReqRes({ pair, behavior }) {
     });
 
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 gap-4">
             {/* Request Box */}
             <div className="rounded-lg border border-[var(--color-border)] bg-[var(--color-surface-glass)] p-4">
                 <div className="text-xs text-[var(--color-text-muted)] flex items-center justify-between gap-2">
@@ -112,7 +112,7 @@ function AnimatedReqRes({ pair, behavior }) {
                         </button>
                     </div>
                 </div>
-                <pre className="mt-2 text-xs md:text-sm text-[var(--color-text-secondary)] overflow-auto max-h-48 md:max-h-64">
+                <pre className="mt-2 text-xs md:text-sm text-[var(--color-text-secondary)] overflow-auto h-24 md:h-32">
                     {reqJson ? reqDisplay || requestContent : requestContent}
                 </pre>
             </div>
@@ -125,7 +125,7 @@ function AnimatedReqRes({ pair, behavior }) {
                         {pair?.res?.status || "200 OK"}
                     </span>
                 </div>
-                <pre className="mt-2 text-xs md:text-sm text-[var(--color-text-secondary)] overflow-auto max-h-48 md:max-h-64">
+                <pre className="mt-2 text-xs md:text-sm text-[var(--color-text-secondary)] overflow-auto h-24 md:h-32">
                     {resJson ? resDisplay || responseContent : responseContent}
                 </pre>
             </div>
